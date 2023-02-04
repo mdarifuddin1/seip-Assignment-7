@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contanier{
+    width:90%;
+    margin: 0 auto;
+    
+    
+}
+
+.row::after{
+    content: '';
+   clear: both;
+   display: block;
+}
+
+.munu-bar{
+    background-color: aqua;
+    display:  flex;
+    justify-content: flex-end;
+  
+}
+
+
+
+.munu-bar a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.munu-bar a:hover{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75% ;}
+.col-10{width: 83.33% ;}
+.col-11{width: 91.66%;}
+.col-12{width: 100;}
+
+[class*=col-]{
+    border: 1px solid red;
+    float: left;
+}
+
+.h-50{
+    height: 50px;
+    width: 100%;
+}
+.h-100{
+   height: 100px;
+}
+.h-300{
+    height: 300px;
+}
+.h-350{
+    height: 350px;
+}
+.h-400{
+    height: 400px;
+}
+.h-200{
+    height: 200px;
+    
+}
+
+.h-201{
+    height: 200px;
+    width: 100%;
+}
+
+
+    
+    @media screen and (max-width:768px){
+    
+       .munu-bar{
+        flex-direction: row;
+        text-align: center;
+        background-color: brown;
+        
+        
+       }
+
+       .munu-bar a:hover{
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .banner img{
+        height: 58px;
+        width: 350px;
+    }
+
+    .logo img{
+           
+       margin-left: 100px;
+        
+        
+    }
+
+    
+    
+        .col-sm-1{ width: 8.33%;}
+        .col-sm-2{ width: 16.66%;}
+        .col-sm-3{ width: 25%;}
+        .col-sm-4{ width: 33.33%;}
+        .col-sm-5{ width: 41.66%;}
+        .col-sm-6{ width: 50%;}
+        .col-sm-7{ width: 58.33%;}
+        .col-sm-8{ width: 66.66%;}
+        .col-sm-9{ width: 75%;}
+        .col-sm-10{ width: 83.33%;}
+        .col-sm-11{ width: 91.66% ;}
+        .col-sm-12{ width: 100%;}
+        
+        [class*="col-"]{
+            border: 1px solid black;
+            float: left; 
+        }
+        }
+
+        .logo img{
+           
+            margin-left: 140px;
+            
+            
+        }
+
+        .banner img{
+            height: 285px;
+        }  
+        
+.left-aside-bar-1 h3{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.right-aside-bar-1{
+    text-align: center;
+}
+
+.right-aside-bar-1 h3{
+   
+    margin-top: 5px;
+}
+
+.right-aside-bar-1 h4{
+   
+    margin-top: 20px;
+}
+   
+    
